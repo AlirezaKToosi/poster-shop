@@ -31,13 +31,18 @@ h1 {
     grid-gap: 2rem;
     color: #fff;
   }
-  .poster_big{
+  .posters_big{
+    padding: 50px ;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    background-color: #fff;
+    background-color: #000;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 2rem;
-    color: black;
+    color: #fff;
+  }
+  .poster_big{
+    background-color: #fff;
+    color: #000;
   }
   .poster_image {
     max-width: 100%;
