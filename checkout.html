@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poster Shop</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="global.css">
   </head>
   <body>
     <header>
@@ -20,31 +22,50 @@
     </header>
     <main>
         <h2>Varor i korg</h2>
-      <section class="posters_big">
-        <div class="poster_big">
-          <img class="poster_image_big" src="assets/char-7.png" alt="a photographer" />
-          <h2 class="h2_big">Photographer</h2>
-          <p class="information_poster_big">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cum
-            itaque odio obcaecati autem ipsam beatae dolores voluptate possimus
-            eius similique nostrum consequatur rem, eos deleniti tempore
-            adipisci. Cupiditate, reiciendis.
-          </p>
-          <button>Oh, take my money!</button>
+        <section class="posters">
+          <article class="poster">
+            <figure>
+              <img class="poster_image" src="./assets/char-7.png" alt="Fotograf" />
+            </figure>
+            <h2>Fotograf</h2>
+            <p class="information">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit iure
+              assumenda soluta. Provident corporis aut tenetur itaque sint adipisci!
+            </p>
+            <button>Oh, take my money!</button>
+          </article>
+  
+          <article class="poster">
+            <figure>
+              <img class="poster_image" src="./assets/char-9.png" alt="Personlig Tränare" />
+            </figure>
+            <h2>Personlig Tränare</h2>
+            <p class="information">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit iure
+              assumenda soluta. Provident corporis aut tenetur itaque sint adipisci!
+            </p>
+            <button>Oh, take my money!</button>
+          </article>
+        </section>
+        <section class="checkout">
+          <span class="first head-row">Vara</span>
+          <span class="middle head-row">Antal</span>
+          <span class="last head-row">Pris</span>
+          <span class="first">Poster Fotograf</span>
+          <span class="middle">1</span>
+          <span class="last">179 sek</span>
+          <span class="first">Poster Crossfit</span>
+          <span class="middle">1</span>
+          <span class="last">179 sek</span>
+          <div class="total-row">
+            <span class="first">Totalt</span>
+            <span class="last">358 sek</span>
+          </div>
+        </section>
+  
+        <div class="btn-container">
+          <button class="checkout-btn">Gimmi, gimme, gimmi!</button>
         </div>
-
-        <div class="poster_big">
-          <img class="poster_image_big" src="assets/char-9.png" alt="a personal trainer" />
-          <h2 class="h2_big">Personal Trainer</h2>
-          <p class="information_poster_big">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cum
-            itaque odio obcaecati autem ipsam beatae dolores voluptate possimus
-            eius similique nostrum consequatur rem, eos deleniti tempore
-            adipisci. Cupiditate, reiciendis.
-          </p>
-          <button>Oh, take my money!</button>
-        </div>
-      </section>
     </main>
     <footer>
       <div class="nav-footer">
